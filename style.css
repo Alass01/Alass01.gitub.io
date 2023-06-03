@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#{
+    text-decoration: none;
+
+}
+.hero{
+    height: 200vh;
+    width: 99.2vw;
+    background: #eff4fd;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+
+
+}
+
+.logO::first-letter{
+    font-size: 40px;
+    border: 2px solid   blue;
+    border-right: transparent;
+    padding: 5px;
+    color: red;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 90px;
+
+}
+nav ul li a{
+    color: black;
+    position: relative;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+nav ul li a::after{
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    position: absolute;
+    height: 3px;
+    background: red;
+    transition: .3s;
+
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+.detail{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.detail h1{
+    color: black;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+
+}
+.detail  span{
+    color: red;
+
+}
+.detail p{
+    color: black;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+}
+
+.image img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+.image{
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+.detail p{
+    
+    left: 10px;
+}
+
+/* Style général du footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style de la liste */
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style des éléments de la liste */
+  .footer li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Style des icônes */
+  .footer img {
+    margin-right: 10px;
+    height: 20px;
+  }
+  
+  /* Style des titres */
+  .footer h2, .footer h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Style des liens */
+  .footer a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Style des adresses */
+  .footer h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+  }
+  
